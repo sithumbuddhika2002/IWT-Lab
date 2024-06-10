@@ -1,0 +1,118 @@
+body {
+	background-image : url("../images/back2.jpg")
+}
+
+.logo {
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+h2 {
+	text-align : center;
+	font-family : "Arial";
+	font-size : 30px;
+}
+
+h3 {
+	text-align : center;
+	font-family : "Arial";
+}
+
+hr {
+	border: 1px solid black;
+}
+
+.navi {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+}
+
+	.navi li {
+		float:left;
+	}
+	
+	.navi li a{
+		display:block;
+		color:solid black;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration:none;
+	}
+	
+	.navi li a:hover{
+		background-color:#111;
+	}
+	
+	.productData{
+		margin-top:15px;
+		margin-right:10px;
+		margin-left:10px;
+		margin-bottom:10px;
+		background-color:#ffffff;
+		padding:3px;
+		border-color:darkblue;
+		border-style:groove;
+	}
+	
+	.item{
+		text-align:center;
+	}
+	
+	.description{
+		text-align:left;
+	}
+	
+	footer {
+		text-align:center;
+		font-family:"Times New Roman";
+	}
+	
+	.btn_nav {
+		list-style-type:none;
+		margin:10;
+		padding:0;
+		overflow:hidden;
+	}
+	
+	.btn_nav button{
+		float:left;
+		margin-right:10px;
+	}
+		
+
+ul.menu {
+	list-style-type : none;
+	margin: 6;
+	padding: 6;
+}
+
+li {
+	display: inline;
+}
+
+li {
+	float:left;
+}
+a {
+	display:block;
+	padding:8px;
+	background-color:#dddddd;
+	
+li a {
+	display : block;
+	color:white;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:#111;
+}
+li {
+	border-right: 1px solid #bbb;
+}
+
